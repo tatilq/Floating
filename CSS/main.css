@@ -10,10 +10,19 @@ body{
 }
 div{
 	margin-left:40%;
-	margin-top: 20%;
+	margin-top: 10%;
 	margin-right: 40%;
 }
 a{
 	display: block;
+	color:#731C72;
+	display: block;
+	text-decoration: none;
 }
 
+a:hover
+{
+	
+	color: #1DC8CB;
+
+}
