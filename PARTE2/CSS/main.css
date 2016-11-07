@@ -1,19 +1,27 @@
-.Contenedor
+.box1
 {
-	border: 2px solid orange;
-	margin-right:82%;
-	margin-left: 1%;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	background-color: yellow;
+	width: 25%;
+	height: 100px;
+	float: left;
 }
-.Titulo
-{	
-	padding: 4px 11px;
-}
-.Contenido
+.box2
 {
-	
-	padding-right: 11px;
-	padding-left: 11px;
-	padding-bottom: 10px;
+	background-color: blue;
+	width: 25%;
+	height: 100px;
+	float: left;
 }
+.box3
+{
+	background-color: red;
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+
+.clearfix
+{
+	border:1px solid black;
+}
+

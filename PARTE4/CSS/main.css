@@ -1,24 +1,27 @@
-.Contenedor
+.box1
 {
-	border: 2px solid orange;
-	margin-right:82%;
-	margin-left: 1%;
-	
-	margin-top: 0.5px;
-	margin-bottom: 0.5px;
-	
+	background-color: yellow;
+	width: 25%;
+	height: 100px;
+	float: left;
 }
-.Titulo
+.box2
+{
+	background-color: blue;
+	width: 25%;
+	height: 100px;
+	float: left;
+}
+.box3
+{
+	background-color: red;
+	height: 100px;
+	width: 25%;
+	float: left;
+}
 
-{	padding-bottom: 4px;
-	padding-top: 4px;
-	
-}
-.Contenido
+.clearfix
 {
-	/*
-	padding-right: 11px;
-	padding-left: 11px;*/
-	padding-bottom: 10px;
-	font-size: 17.8px;
+	overflow: hidden;	
+	border:1px solid black;
 }
